@@ -1,0 +1,36 @@
+#imagen{
+    background-color: tomato;
+}
+
+.container{
+    
+    width: 85vw;
+    height: 100vh;
+    background-color: turquoise;
+    float: right;
+    margin-top: -80vh;
+}
+
+.card {
+    margin-top: 30px;
+}
+
+#ckbFemenil{
+    margin-left: 5%;
+}
+
+#ckbVaronil{
+    margin-left: 10%;
+}
+
+#opcionVaronil{
+    width: 70%;
+
+}
+
+
+option{
+    color:#000000;
+
+}
+

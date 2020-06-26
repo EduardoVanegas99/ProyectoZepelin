@@ -1,0 +1,119 @@
+extends menuLateral
+block contenido
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+
+
+    div.container 
+             div.card 
+                div.card-header
+                    div.row 
+                        div.col-6 
+                            h2 Lista de Partidos
+                        div.col-4
+                        <button type="button" class="btn btn-primary" href="#" data-toggle="modal" data-target="#crearClubModal">Agregar partido</button>
+
+                .card-body 
+                    div.row
+                        div.col-4 
+                           
+                            span Equipos
+                        div.col-4 
+                            span Hora y fecha 
+                        div.col-4
+                            span Operaciones
+                   
+                          
+    <div class="modal fade" id="crearClubModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModal">Crear Partido</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                   
+                   
+                    <form action="/crear-partidos" method="POST">
+
+                        div.row
+                             
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="femenil" id="exampleRadios1" value="femenil" checked>
+                                <label class="form-check-label" for="exampleRadios1" name="femenil">
+                                    Default Femenil
+                                </label>
+                                </div>
+                                <div class="form-check">
+                                <input class="form-check-input" type="radio"  id="exampleRadios2" name="Varonil"  value="Varonil">
+                                <label class="form-check-label" for="exampleRadios2" name="Varonil">
+                                    Default  Varonil
+                                </label>
+                            </div>
+                        div.row 
+                            <div class="form-group col-6">
+                                <label for="exampleFormControlSelect1">Seleccionar Equipo</label>
+                                <select class="form-control" id="exampleFormControlSelect1" name="equipo">
+                                     
+                                        each proyectos in proyectos 
+                                            option(value=proyectos.nombre)  
+                                
+                                </select>
+                            </div>
+                            <div class="form-group col-6" id="opcionVaronil">
+                               
+                                <label for="exampleFormControlSelect1">Seleccionar Equipo</label>
+                                <select class="form-control" id="equipos" name="equipoDos">
+                                    each proyectos in proyectos 
+                                        option(value=proyectos.nombre)
+                                                 
+                                                   
+                                    
+                               
+                                </select>
+                            </div>
+                    div.row 
+                        <div class="form-group col-6">
+                            <input type="date" class="form-control" id="recipient-name" name="fecha">
+                        </div>
+                         <div class="form-group col">
+                            img(src="", alt="")
+                        </div>
+
+                        <div class="form-group col-6">
+                            <input type="time" class="form-control" id="recipient-name" name="hora">   
+                        </div>
+
+                        <div class="form-group col-6">
+                            <input type="submit" class="form-control" id="recipient-name" value="Registrar">   
+                        </div>
+                               
+                               
+                            
+
+                                
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+                    <button type="button" class="btn btn-primary">Crear Partido</button>
+                </div>
+            </div>
+        </div>
+    </div>
+         ul 
+                                 
+
+
+                
+
+             
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+

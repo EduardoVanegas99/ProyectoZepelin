@@ -1,0 +1,54 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+    
+
+}
+
+.contenedor{
+    width: 80vw;
+    height: 60vh;
+    background-color: aqua;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+}
+
+.contenedorFormulario {
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    
+    
+}
+
+.contenedorImagen{
+    width: 50%;
+    height: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen{
+    width: 50%;
+    height: 70%;
+    background-color: blueviolet;
+    position: relative;
+      
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+
+    
+   
+ 
+    
+  
+}
+
+#formulario{
+    margin-top: 30px;
+}  
+
+
+
+/* Siempre trabaja con el eje orizontal*/
+.contenedorClubes{
+    width: 81vw;
+    height: 100vh;
+    background: aqua;
+    float: right;
+    margin-top: -35%;
+    
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+} 
+
+
+
+
+.contenedorEquipo{
+    width: 20%;
+    height: 60%;
+    background-color: darkblue;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    
+
+
+}
+
+.contenedorImagen{
+    width: 80;
+    height: 70%;
+    background-color: darkgoldenrod;
+}
+
+
+

@@ -1,0 +1,49 @@
+Instalar npm install --save express-validator
+
+No se valida en el controlador, sino, en el router
+
+
+
+
+
+
+Instalar url
+
+
+npm install --save slug
+
+
+
+
+
+
+
+Hooks
+
+
+
+
+
+Rauting de los proyectos
+
+ a(href=`/club${club.url}`)=club.nombre 
+
+ Ir al router
+
+ 
+
+ Passport
+
+ npm install --save bcrypt-nodejs
+
+
+
+ /////////////////////////////////////
+
+ instalar npm i connect flash
+
+ npm i connect-flash
+
+ importamos la libreria en el index servidor
+
+

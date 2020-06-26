@@ -1,0 +1,29 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "index.js",
+    "start": "nodemon ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcrypt-nodejs": "0.0.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-validators": "^1.0.4",
+    "mysql2": "^2.1.0",
+    "pug": "^2.0.4",
+    "sequelize": "^5.21.7",
+    "shortid": "^2.2.15",
+    "slug": "^2.1.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.3"
+  }
+}
